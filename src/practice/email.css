@@ -1,0 +1,101 @@
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1;
+  color: #444;
+}
+
+.grid-container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 5% 25% 1fr 20%;
+  grid-template-rows: 10vh 1fr;
+
+  grid-template-areas:
+    "nav header header header"
+    "nav email-list email addl-info";
+}
+
+.nav {
+  grid-area: nav;
+  background-color: #0ca678;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  padding: 12px;
+  grid-area: header;
+  background-color: #4dabf7;
+  display: flex;
+  gap: 20px;
+}
+.email-list {
+  grid-area: email-list;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  gap: 20px;
+}
+.email-info {
+  grid-area: email;
+  text-align: justify;
+  line-height: 1.5;
+  font-size: large;
+  background-color: #f1f3f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 30px;
+}
+.addl-info {
+  grid-area: addl-info;
+  text-align: justify;
+  background-color: #faa2c1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-buttons {
+  padding: 10px;
+  border: 2px solid #4dabf7;
+  background-color: #1864ab;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.delete-button {
+  background-color: rgba(255, 68, 0, 0.523);
+  margin-left: auto;
+}
+
+.menu-buttons:hover {
+  background-color: #74b816;
+}
+.delete-button:hover {
+  background-color: red;
+}
+
+.email {
+  height: 50px;
+  width: 150px;
+  background-color: #ced4da;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+} */

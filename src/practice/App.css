@@ -1,0 +1,67 @@
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "rubik";
+  line-height: 1;
+  color: #444;
+}
+
+.nav {
+  font-weight: 700;
+  font-size: 20px;
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("./../../public/hero.jpg");
+  background-size: cover;
+}
+
+.container {
+  height: 90%;
+  margin: 0 12%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  gap: 26px;
+}
+
+.get-started-link:link,
+.get-started-link:visited {
+  text-decoration: none;
+  background-color: rgb(255, 132, 0);
+  color: white;
+  padding: 12px;
+  border-radius: 20px;
+
+  display: inline-block;
+
+  align-self: flex-end;
+}
+
+.get-started-link:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+.get-started-link:active {
+  transform: scale(0.9);
+} */
