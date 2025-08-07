@@ -59,7 +59,7 @@ export default function App() {
             </div>
           </section>
           <div className="hero-img-box">
-            <img src="app-hero.png" alt="Meals image" className="hero-img" />
+            <img src="hero.webp" alt="Meals image" className="hero-img" />
           </div>
           <div className="how" id="how-it-works">
             <h4 className="how-head">How it works?</h4>
