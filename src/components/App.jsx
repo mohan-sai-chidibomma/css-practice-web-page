@@ -352,7 +352,7 @@ export default function App() {
                   </li>
                 </ul>
               </div>
-              <a href="#" className="hero-button nav-link">
+              <a href="#cta" className="hero-button nav-link">
                 Subscribe
               </a>
             </div>
@@ -428,7 +428,7 @@ export default function App() {
                   </li>
                 </ul>
               </div>
-              <a href="#" className="hero-button nav-link">
+              <a href="#cta" className="hero-button nav-link">
                 Subscribe
               </a>
             </div>
