@@ -6,28 +6,22 @@ export default function App() {
   return (
     <>
       <header className="header">
-        <button
-          type="button"
-          className="logo-button"
-          onClick={() => {
-            location.reload();
-          }}
-        >
+        <a href="#" className="logo-button">
           <img src="omnifood-logo.png" alt="Omnifood Logo" className="logo" />
-        </button>
-        <a href="#" className="nav-link">
+        </a>
+        <a href="#how-it-works" className="nav-link">
           How it works?
         </a>
-        <a href="#" className="nav-link">
+        <a href="#meals" className="nav-link">
           Meals
         </a>
-        <a href="#" className="nav-link">
+        <a href="#gallery" className="nav-link">
           Gallery
         </a>
-        <a href="#" className="nav-link">
+        <a href="#plans" className="nav-link">
           Plans
         </a>
-        <a href="#" className="hero-button nav-link">
+        <a href="#cta" className="hero-button nav-link">
           Subscribe
         </a>
       </header>
@@ -43,10 +37,10 @@ export default function App() {
               nutritional needs.
             </div>
             <div className="links">
-              <a href="#" className="hero-button">
+              <a href="#cta" className="hero-button">
                 Start eating well
               </a>
-              <a href="#" className="hero-button btn-outline">
+              <a href="#how-it-works" className="hero-button btn-outline">
                 Learn more &darr;
               </a>
             </div>
@@ -67,7 +61,7 @@ export default function App() {
           <div className="hero-img-box">
             <img src="app-hero.png" alt="Meals image" className="hero-img" />
           </div>
-          <div className="how">
+          <div className="how" id="how-it-works">
             <h4 className="how-head">How it works?</h4>
             <h3 className="how-desc">
               Your daily dose of health in 3 simple steps
@@ -152,7 +146,7 @@ export default function App() {
               />
             </div>
           </section>
-          <div className="how">
+          <div className="how" id="meals">
             <h4 className="how-head">Meals</h4>
             <h3 className="how-desc">
               Omnifood AI chooses from 5,000+ recipes
@@ -186,7 +180,7 @@ export default function App() {
             </a>
           </div>
 
-          <div className="how">
+          <div className="how" id="gallery">
             <h4 className="how-head">Gallery</h4>
             <h3 className="how-desc">Have a look at them!</h3>
           </div>
@@ -280,7 +274,7 @@ export default function App() {
             </div>
           </div>
 
-          <div className="how">
+          <div className="how" id="plans">
             <h4 className="how-head">Plans</h4>
             <h3 className="how-desc">Choose your plan!</h3>
           </div>
@@ -535,7 +529,7 @@ export default function App() {
             </div>
           </section>
 
-          <section className="cta">
+          <section className="cta" id="cta">
             <div className="cta-form-container">
               <h2 className="cta-head">We offer a free sample meal</h2>
               <p className="cta-desc">
@@ -581,7 +575,9 @@ export default function App() {
                     <option value="others">Others</option>
                   </select>
                 </div>
-                <button className="sign-up-btn">Sign up now</button>
+                <button className="sign-up-btn" type="button">
+                  Sign up now
+                </button>
               </form>
             </div>
             <div className="cta-img-container">
