@@ -171,6 +171,7 @@ html {
   grid-column: 1 / -1;
   padding: 0 3rem;
   justify-self: start;
+  margin-top: 4rem;
 }
 
 .how-head {
